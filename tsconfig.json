@@ -1,5 +1,16 @@
 {
   "compilerOptions": {
-    "target": "esnext"
+    "strict": true,
+    "target": "ES2015",
+    "module": "ES2020",
+    "declaration": true,
+    "declarationDir": "build/types",
+    "emitDeclarationOnly": true,
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "types": [
+      "node"
+    ]
   }
 }
